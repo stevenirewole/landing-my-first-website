@@ -1,3 +1,9 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    flex-shrink: 1;
+}
 .header{
     background-color: #1f2937;
     color: white;
@@ -10,6 +16,7 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .top{
     display: flex;
@@ -18,12 +25,15 @@
 .next{
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .first{
     flex-direction: column;
     align-self: center;
+    justify-content: left;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    max-width: 400px;
+    max-width: 500px;
 }
 .quote{
     background-color: #e5e7eb;
@@ -55,6 +65,7 @@ img{
     width: 300px;
     border-radius: 4px;
     margin-bottom: 16px;
+    border: #1f2937 2px solid;
 }
 .image{
     width: 500px;
