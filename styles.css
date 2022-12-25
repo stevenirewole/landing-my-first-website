@@ -1,6 +1,5 @@
-html,body{
+body{
     height: 100vh;
-    height: calc(var(--vh,1vh)*100);
 }
 .header{
     background-color: #1f2937;
